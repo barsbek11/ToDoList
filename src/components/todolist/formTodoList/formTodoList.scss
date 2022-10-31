@@ -1,0 +1,24 @@
+.form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	.addTodo {
+		display: flex;
+		align-items: center;
+		margin-bottom: 10px;
+		.input {
+			width: 500px;
+			height: 43px;
+			&:hover {
+				background: rgb(235, 233, 233);
+			}
+		}
+		.addButton {
+			height: 43px;
+			width: 60px;
+			background-color: rgb(196, 174, 130);
+			border: rgb(196, 174, 130);
+		}
+	}
+}

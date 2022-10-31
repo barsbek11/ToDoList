@@ -1,0 +1,12 @@
+.app {
+	padding: 30px;
+	background-color: floralwhite;
+	min-height: 600px;
+}
+
+.todo {
+	align-items: center;
+	display: flex;
+	font-size: 18px;
+	justify-content: space-between;
+}

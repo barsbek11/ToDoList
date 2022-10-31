@@ -1,0 +1,13 @@
+.todo {
+	width: 560px;
+	display: flex;
+	justify-content: space-between;
+	span {
+		width: 450px;
+	}
+	div {
+		width: 82px;
+		display: flex;
+		gap: 5px;
+	}
+}
